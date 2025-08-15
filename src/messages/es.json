@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "comoFunciona": "Cómo funciona",
+    "beneficios": "Beneficios",
+    "requisitos": "Qué necesita tu institución",
+    "estandares": "Estándares y confianza",
+    "faq": "FAQ",
+    "integrarse": "Integrarse"
+  },
+  "hero": {
+    "h1": "Credenciales Verificables para el Estado y la Ciudadanía",
+    "sub": "Emite, porta y verifica credenciales de forma segura, con verificación descentralizada y estatus consultable con la entidad emisora.",
+    "cta": "Quiero Integrarme"
+  },
+  "how": {
+    "title": "¿Cómo funciona?",
+    "steps": [
+      {
+        "title": "Emisión",
+        "body": "La institución crea y firma la credencial con sus claves oficiales."
+      },
+      {
+        "title": "Titular",
+        "body": "El ciudadano guarda la credencial en su wallet y la presenta cuando la necesita (o vía Android/iOS con soporte nativo)."
+      },
+      {
+        "title": "Verificación",
+        "body": "Cualquiera puede verificar criptográficamente la prueba; para el estatus (vigente/revocada), el verificador consulta al emisor."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Beneficios",
+    "citizen": {
+      "title": "Para ciudadanos",
+      "items": [
+        "Menos fricción y trámites.",
+        "Reuso multi‑servicio.",
+        "Desde el teléfono, sin papeleo."
+      ]
+    },
+    "org": {
+      "title": "Para instituciones",
+      "items": [
+        "Interoperabilidad (APIs estándar, p.ej., X‑Road).",
+        "Menor fraude gracias a firmas y estatus consultable.",
+        "Trazabilidad y auditoría de consultas."
+      ]
+    }
+  },
+  "reqs": {
+    "title": "Qué necesita tu institución",
+    "bullets": [
+      "API interoperable en X-Road para exponer estatus/atributos. No hay almacenamiento por terceros.",
+      "Autenticación y autorización documentadas para el consumo del API.",
+      "Endpoint público de DID/DID Document en dominio oficial para claves/metadata."
+    ]
+  },
+  "standards": {
+    "title": "Estándares y confianza",
+    "body": "Nos alineamos al estándar W3C de Credenciales Verificables; el objetivo es verificación descentralizada con opción de consulta de estatus al emisor.",
+    "coreMessages": [
+      "Descentralizado por diseño: la prueba no requiere un registro central.",
+      "El estatus puede requerir consulta a la entidad emisora (revocado/suspendido).",
+      "Las instituciones gestionan el ciclo de vida: emitir, modificar y revocar.",
+      "Privacidad y control: los datos viven en la institución y la wallet del titular."
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Mis usuarios pueden utilizar sus credenciales sin acceso a internet?",
+        "a": "Sí, sus usuarios pueden presentar sus credenciales verificables sin conexión a internet. La verificación criptográfica de las credenciales funciona offline. Sin embargo, para verificar el estatus actual (si está revocada o suspendida) se requiere conexión para consultar a su institución."
+      },
+      {
+        "q": "¿Qué tipos de documentos puede emitir mi institución como credenciales verificables?",
+        "a": "Su institución puede emitir cualquier documento oficial como credencial verificable: cédulas de identidad, licencias de conducir, títulos académicos, certificados profesionales, permisos, acreditaciones, y otros documentos que requieran verificación de autenticidad."
+      },
+      {
+        "q": "¿La verificación es completamente descentralizada?",
+        "a": "Sí, la verificación criptográfica de la credencial es completamente descentralizada: cualquier persona puede comprobar su validez sin depender de un registro central o de la institución emisora. Esto garantiza mayor autonomía, transparencia y resistencia a puntos únicos de falla."
+      },
+      {
+        "q": "¿Quién emite/revoca?",
+        "a": "Cada institución gestiona su ciclo de vida: emitir, modificar y revocar credenciales."
+      },
+      {
+        "q": "¿Quién usa el API?",
+        "a": "Su institución expone el API interoperable para que nuestro backend pueda consultar el estatus y atributos de las credenciales emitidas."
+      },
+      {
+        "q": "¿Dónde vive la data?",
+        "a": "En la institución (origen) y en la wallet del titular; las consultas quedan auditadas en los registros del emisor."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Únete / Solicita Integración",
+    "subtitle": "Completa el formulario para que nuestro equipo técnico te contacte con los siguientes pasos.",
+    "form": {
+      "institution": "Institución",
+      "name": "Nombre",
+      "email": "Email",
+      "phone": "Teléfono",
+      "domain": "Dominio oficial",
+      "techLead": "Responsable técnico",
+      "submit": "Enviar solicitud",
+      "successTitle": "Solicitud recibida",
+      "successBody": "Gracias. Revisaremos tu información y te escribiremos con los próximos pasos (documentación, pruebas de interoperabilidad y cronograma).",
+      "errorMessage": "Por favor corrige los campos marcados y reintenta.",
+      "disclaimer": "Al enviar aceptas ser contactado para propósitos de interoperabilidad."
+    }
+  },
+  "govCta": {
+    "title": "Entidad Gubernamental ¿Quieres activar la Cuenta Única Ciudadana para tu portal web o aplicación?",
+    "body": "La integración de Cuenta Única Ciudadana ofrecerá un inicio de sesión simple y seguro al ciudadano dominicano, reducirá al mínimo los vectores de ataques (como creación de multicuentas, suplantación de identidad, etc) y muchos otros beneficios. El proceso de integración será rápido e indoloro gracias a que disponemos de herramientas basadas en estándares (OAuth y OpenID Connect). ¡Contáctanos para más información!",
+    "button": "Solicitar información"
+  },
+  "footer": {
+    "line": "Alineado al estándar W3C de Credenciales Verificables (VC).",
+    "columns": {
+      "know": {
+        "title": "Conócenos",
+        "body": "Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC)"
+      },
+      "contact": {
+        "title": "Contáctanos",
+        "tel": "(809)-286-1009",
+        "fax": "(809)-732-5465",
+        "email": "info@ogtic.gob.do"
+      },
+      "find": {
+        "title": "Búscanos",
+        "address": "Oficina Gubernamental de Tecnologías de la Información y Comunicación (OGTIC) Av. Rómulo Betancourt #311, Edificio Corporativo Vista 311, Santo Domingo, República Dominicana."
+      },
+      "learn": {
+        "title": "Infórmate",
+        "terms": "Términos de Uso",
+        "privacy": "Política de Privacidad",
+        "faq": "Preguntas Frecuentes"
+      }
+    },
+    "follow": "Síguenos",
+    "copyright": "© 2025 Todos los Derechos Reservados. Desarrollado por"
+  }
+}

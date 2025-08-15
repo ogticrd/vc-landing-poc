@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "comoFunciona": "How it works",
+    "beneficios": "Benefits",
+    "requisitos": "What institutions need",
+    "estandares": "Standards & trust",
+    "faq": "FAQ",
+    "integrarse": "Join"
+  },
+  "hero": {
+    "h1": "Verifiable Credentials for Government and Citizens",
+    "sub": "Issue, carry, and verify credentials securely, with decentralized verification and issuer-checkable status.",
+    "cta": "Request Integration"
+  },
+  "how": {
+    "title": "How it works?",
+    "steps": [
+      {
+        "title": "Issuance",
+        "body": "The institution creates and signs the credential with its official keys."
+      },
+      {
+        "title": "Holder",
+        "body": "The citizen stores it in a wallet and presents it when needed (or via Android/iOS native VC support)."
+      },
+      {
+        "title": "Verification",
+        "body": "Anyone can verify the cryptographic proof; for status (active/revoked), the verifier queries the issuer."
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Benefits",
+    "citizen": {
+      "title": "For citizens",
+      "items": ["Less friction and paperwork.", "Multi‑service reuse.", "On your phone."]
+    },
+    "org": {
+      "title": "For institutions",
+      "items": [
+        "Interoperability (standard APIs, e.g., X‑Road).",
+        "Fraud reduction.",
+        "Query auditability."
+      ]
+    }
+  },
+  "reqs": {
+    "title": "What your institution needs",
+    "bullets": [
+      "Interoperable API within X-Road to expose status/attributes. No third-party storage.",
+      "Documented authentication and authorization for API consumption.",
+      "Public DID/DID-Document endpoint on official domain for keys/metadata."
+    ]
+  },
+  "standards": {
+    "title": "Standards & trust",
+    "body": "We align to the W3C Verifiable Credentials (VC) standard: decentralized verification with optional issuer status checks.",
+    "coreMessages": [
+      "Decentralized by design: proof doesn't rely on a central registry.",
+      "Status may require an issuer check (revoked/suspended).",
+      "Institutions manage lifecycle: issue, modify, revoke.",
+      "Privacy & control: data lives at the institution and holder wallet."
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "q": "Can my users use their credentials without internet access?",
+        "a": "Yes, your users can present their verifiable credentials without internet connection. The cryptographic verification of credentials works offline. However, to verify the current status (if it's revoked or suspended) requires connection to query your institution."
+      },
+      {
+        "q": "What types of documents can my institution issue as verifiable credentials?",
+        "a": "Your institution can issue any official document as a verifiable credential: identity cards, driver's licenses, academic degrees, professional certificates, permits, accreditations, and other documents that require authenticity verification."
+      },
+      {
+        "q": "Is verification fully decentralized?",
+        "a": "Yes, the cryptographic verification of the credential is fully decentralized: anyone can check its validity without relying on a central registry or the issuing institution. This ensures greater autonomy, transparency, and resilience against single points of failure."
+      },
+      { "q": "Who issues/revokes?", "a": "Each institution manages its credential lifecycle." },
+      {
+        "q": "Who uses the API?",
+        "a": "Your institution exposes the interoperable API so our backend can query the status and attributes of issued credentials."
+      },
+      {
+        "q": "Where does data live?",
+        "a": "At the source institution and in the holder's wallet; queries are auditable at the issuer."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Join / Request Integration",
+    "subtitle": "Fill the form and our team will follow up with next steps.",
+    "form": {
+      "institution": "Institution",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "domain": "Official domain",
+      "techLead": "Technical contact",
+      "submit": "Submit",
+      "successTitle": "Request received",
+      "successBody": "Thanks! We'll review and follow up with documentation, interoperability tests, and a timeline.",
+      "errorMessage": "Please fix the highlighted fields and try again.",
+      "disclaimer": "By submitting you agree to be contacted for interoperability purposes."
+    }
+  },
+  "govCta": {
+    "title": "Government entity – Want to enable the Single Citizen Account for your portal or application?",
+    "body": "Enabling the Single Citizen Account offers citizens a simple and secure login, reduces attack vectors (multi‑account creation, identity theft, etc.) and more. Integration is quick and painless with our tooling based on industry standards (OAuth and OpenID Connect). Contact us for more information!",
+    "button": "Request information"
+  },
+  "footer": {
+    "line": "Aligned with the W3C Verifiable Credentials (VC) standard.",
+    "columns": {
+      "know": {
+        "title": "About",
+        "body": "Government Office of Information and Communication Technologies (OGTIC)"
+      },
+      "contact": {
+        "title": "Contact",
+        "tel": "(809)-286-1009",
+        "fax": "(809)-732-5465",
+        "email": "info@ogtic.gob.do"
+      },
+      "find": {
+        "title": "Find us",
+        "address": "Government Office of Information and Communication Technologies (OGTIC) Av. Rómulo Betancourt #311, Vista 311 Corporate Building, Santo Domingo, Dominican Republic."
+      },
+      "learn": {
+        "title": "Learn",
+        "terms": "Terms of Use",
+        "privacy": "Privacy Policy",
+        "faq": "Frequently Asked Questions"
+      }
+    },
+    "follow": "Follow us",
+    "copyright": "© 2025 All rights reserved. Built by"
+  }
+}
