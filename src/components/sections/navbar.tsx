@@ -10,7 +10,7 @@ interface NavbarProps {
 export async function Navbar({ locale }: NavbarProps) {
   const intl = await getDictionary(locale);
   return (
-    <header className="sticky top-0 z-40 bg-white border-b border-zinc-200/70">
+    <header className="sticky top-0 z-40 bg-white border-b border-zinc-200/70 dark:bg-zinc-900 dark:border-zinc-800">
       <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="h-8 w-8 rounded bg-primary flex items-center justify-center">
@@ -36,7 +36,7 @@ export async function Navbar({ locale }: NavbarProps) {
           </a>
         </nav>
         <div className="flex items-center gap-3">
-          <LanguageToggle currentLocale={locale} />
+          <LanguageToggle lang={locale} />
           <a
             href="#integrarse"
             className="inline-flex items-center gap-2 rounded-xl bg-primary text-white px-4 py-2 text-sm font-semibold hover:bg-primary/90 transition-colors"
